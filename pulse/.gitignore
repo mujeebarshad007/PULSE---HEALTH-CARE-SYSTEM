@@ -1,0 +1,33 @@
+# dependencies
+node_modules/
+
+# builds
+dist/
+build/
+.next/
+out/
+coverage/
+
+# env files (only .env.example is tracked)
+.env
+.env.*
+!.env.example
+
+# uploads and local data
+uploads/
+backend/storage/
+*.log
+
+# testing
+playwright-report/
+test-results/
+
+# editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# prisma
+*.db
